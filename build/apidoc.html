@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.level.level">
+            function <span class="apidocSignatureSpan"></span>level
+            <span class="apidocSignatureSpan">(location, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.level.destroy">
             function <span class="apidocSignatureSpan">level.</span>destroy
             <span class="apidocSignatureSpan">(location, callback)</span>
@@ -79,12 +88,82 @@
 
         </li>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.level.toString">
+            function <span class="apidocSignatureSpan">level.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.level.destroy">module level.destroy</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.level.destroy.destroy">
+            function <span class="apidocSignatureSpan">level.</span>destroy
+            <span class="apidocSignatureSpan">(location, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.level.repair">module level.repair</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.level.repair.repair">
+            function <span class="apidocSignatureSpan">level.</span>repair
+            <span class="apidocSignatureSpan">(location, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.level.toString">module level.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.level.toString.toString">
+            function <span class="apidocSignatureSpan">level.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.level" id="apidoc.module.level">module level</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.level.level" id="apidoc.element.level.level">
+        function <span class="apidocSignatureSpan"></span>level
+        <span class="apidocSignatureSpan">(location, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Level(location, options, callback) {
+  if (typeof options === &#x27;function&#x27;)
+    callback = options
+  if (!(typeof options === &#x27;object&#x27; &#x26;&#x26; options !== null))
+    options  = {}
+
+  options.db = leveldown
+
+  return levelup(location, options, callback)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
@@ -112,6 +191,79 @@
     <li>description and source-code<pre class="apidocCodePre">repair = function (location, callback) {
   leveldown[m](location, callback || function () {})
 }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.level.toString" id="apidoc.element.level.toString">
+        function <span class="apidocSignatureSpan">level.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.level.destroy" id="apidoc.module.level.destroy">module level.destroy</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.level.destroy.destroy" id="apidoc.element.level.destroy.destroy">
+        function <span class="apidocSignatureSpan">level.</span>destroy
+        <span class="apidocSignatureSpan">(location, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">destroy = function (location, callback) {
+  leveldown[m](location, callback || function () {})
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.level.repair" id="apidoc.module.level.repair">module level.repair</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.level.repair.repair" id="apidoc.element.level.repair.repair">
+        function <span class="apidocSignatureSpan">level.</span>repair
+        <span class="apidocSignatureSpan">(location, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">repair = function (location, callback) {
+  leveldown[m](location, callback || function () {})
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.level.toString" id="apidoc.module.level.toString">module level.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.level.toString.toString" id="apidoc.element.level.toString.toString">
+        function <span class="apidocSignatureSpan">level.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
