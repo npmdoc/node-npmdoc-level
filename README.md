@@ -1,9 +1,14 @@
-# api documentation for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmdoc-level.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-level.svg)](https://travis-ci.org/npmdoc/node-npmdoc-level)
+# npmdoc-level
+
+#### api documentation for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmdoc-level.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-level.svg)](https://travis-ci.org/npmdoc/node-npmdoc-level)
+
 #### Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)
 
-[![NPM](https://nodei.co/npm/level.png?downloads=true)](https://www.npmjs.com/package/level)
+[![NPM](https://nodei.co/npm/level.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/level)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-level/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-level_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-level/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-level/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-level/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-level/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-level/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-level/build/screenCapture.npmPackageListing.svg)
 
@@ -22,67 +27,54 @@
     "contributors": [
         {
             "name": "Rod Vagg",
-            "email": "r@va.gg",
             "url": "https://github.com/rvagg"
         },
         {
             "name": "John Chesley",
-            "email": "john@chesl.es",
             "url": "https://github.com/chesles/"
         },
         {
             "name": "Jake Verbaten",
-            "email": "raynos2@gmail.com",
             "url": "https://github.com/raynos"
         },
         {
             "name": "Dominic Tarr",
-            "email": "dominic.tarr@gmail.com",
             "url": "https://github.com/dominictarr"
         },
         {
             "name": "Max Ogden",
-            "email": "max@maxogden.com",
             "url": "https://github.com/maxogden"
         },
         {
             "name": "Lars-Magnus Skog",
-            "email": "ralphtheninja@riseup.net",
             "url": "https://github.com/ralphtheninja"
         },
         {
             "name": "David Björklund",
-            "email": "david.bjorklund@gmail.com",
             "url": "https://github.com/kesla"
         },
         {
             "name": "Julian Gruber",
-            "email": "julian@juliangruber.com",
             "url": "https://github.com/juliangruber"
         },
         {
             "name": "Paolo Fragomeni",
-            "email": "paolo@async.ly",
             "url": "https://github.com/hij1nx"
         },
         {
             "name": "Anton Whalley",
-            "email": "anton.whalley@nearform.com",
             "url": "https://github.com/No9"
         },
         {
             "name": "Matteo Collina",
-            "email": "matteo.collina@gmail.com",
             "url": "https://github.com/mcollina"
         },
         {
             "name": "Pedro Teixeira",
-            "email": "pedro.teixeira@gmail.com",
             "url": "https://github.com/pgte"
         },
         {
             "name": "James Halliday",
-            "email": "mail@substack.net",
             "url": "https://github.com/substack"
         }
     ],
@@ -114,21 +106,17 @@
     "main": "level.js",
     "maintainers": [
         {
-            "name": "rvagg",
-            "email": "rod@vagg.org"
+            "name": "rvagg"
         },
         {
-            "name": "ralphtheninja",
-            "email": "ralphtheninja@riseup.net"
+            "name": "ralphtheninja"
         },
         {
-            "name": "juliangruber",
-            "email": "julian@juliangruber.com"
+            "name": "juliangruber"
         }
     ],
     "name": "level",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Level/level.git"
@@ -138,42 +126,6 @@
     },
     "version": "1.6.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module level](#apidoc.module.level)
-1.  [function <span class="apidocSignatureSpan">level.</span>destroy (location, callback)](#apidoc.element.level.destroy)
-1.  [function <span class="apidocSignatureSpan">level.</span>repair (location, callback)](#apidoc.element.level.repair)
-
-
-
-# <a name="apidoc.module.level"></a>[module level](#apidoc.module.level)
-
-#### <a name="apidoc.element.level.destroy"></a>[function <span class="apidocSignatureSpan">level.</span>destroy (location, callback)](#apidoc.element.level.destroy)
-- description and source-code
-```javascript
-destroy = function (location, callback) {
-  leveldown[m](location, callback || function () {})
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.level.repair"></a>[function <span class="apidocSignatureSpan">level.</span>repair (location, callback)](#apidoc.element.level.repair)
-- description and source-code
-```javascript
-repair = function (location, callback) {
-  leveldown[m](location, callback || function () {})
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
