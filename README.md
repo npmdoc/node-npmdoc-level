@@ -1,6 +1,6 @@
 # npmdoc-level
 
-#### api documentation for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmdoc-level.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-level.svg)](https://travis-ci.org/npmdoc/node-npmdoc-level)
+#### basic api documentation for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmdoc-level.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-level.svg)](https://travis-ci.org/npmdoc/node-npmdoc-level)
 
 #### Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)
 
@@ -124,7 +124,8 @@
     "scripts": {
         "test": "node ./test.js"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
