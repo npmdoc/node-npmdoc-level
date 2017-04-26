@@ -1,7 +1,7 @@
-<svg height="1246" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1246" fill="#555" width="720"></rect>
+<svg height="1294" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1294" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">8 megabytes installed</tspan>
+<tspan x="10" y="26">9 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
 <tspan x="10" y="74">└─┬ level@1.6.0 </tspan>
@@ -36,46 +36,49 @@
 <tspan x="10" y="538">      ├── node-abi@2.0.0 </tspan>
 <tspan x="10" y="554">      ├── noop-logger@0.1.1 </tspan>
 <tspan x="10" y="570">      ├─┬ npmlog@4.0.2 </tspan>
-<tspan x="10" y="586">      │ ├─┬ are-we-there-yet@1.1.2 </tspan>
-<tspan x="10" y="602">      │ │ └── delegates@1.0.0 </tspan>
-<tspan x="10" y="618">      │ ├── console-control-strings@1.1.0 </tspan>
-<tspan x="10" y="634">      │ ├─┬ gauge@2.7.3 </tspan>
-<tspan x="10" y="650">      │ │ ├── aproba@1.1.1 </tspan>
-<tspan x="10" y="666">      │ │ ├── has-unicode@2.0.1 </tspan>
-<tspan x="10" y="682">      │ │ ├── object-assign@4.1.1 </tspan>
-<tspan x="10" y="698">      │ │ ├── signal-exit@3.0.2 </tspan>
-<tspan x="10" y="714">      │ │ ├─┬ string-width@1.0.2 </tspan>
-<tspan x="10" y="730">      │ │ │ ├── code-point-at@1.1.0 </tspan>
-<tspan x="10" y="746">      │ │ │ └─┬ is-fullwidth-code-point@1.0.0 </tspan>
-<tspan x="10" y="762">      │ │ │   └── number-is-nan@1.0.1 </tspan>
-<tspan x="10" y="778">      │ │ ├─┬ strip-ansi@3.0.1 </tspan>
-<tspan x="10" y="794">      │ │ │ └── ansi-regex@2.1.1 </tspan>
-<tspan x="10" y="810">      │ │ └── wide-align@1.1.0 </tspan>
-<tspan x="10" y="826">      │ └── set-blocking@2.0.0 </tspan>
-<tspan x="10" y="842">      ├── os-homedir@1.0.2 </tspan>
-<tspan x="10" y="858">      ├─┬ pump@1.0.2 </tspan>
-<tspan x="10" y="874">      │ ├── end-of-stream@1.4.0 </tspan>
-<tspan x="10" y="890">      │ └─┬ once@1.4.0 </tspan>
-<tspan x="10" y="906">      │   └── wrappy@1.0.2 </tspan>
-<tspan x="10" y="922">      ├─┬ rc@1.2.1 </tspan>
-<tspan x="10" y="938">      │ ├── deep-extend@0.4.1 </tspan>
-<tspan x="10" y="954">      │ ├── ini@1.3.4 </tspan>
-<tspan x="10" y="970">      │ └── strip-json-comments@2.0.1 </tspan>
-<tspan x="10" y="986">      ├─┬ simple-get@1.4.3 </tspan>
-<tspan x="10" y="1002">      │ └── unzip-response@1.0.2 </tspan>
-<tspan x="10" y="1018">      ├─┬ tar-fs@1.15.2 </tspan>
-<tspan x="10" y="1034">      │ ├── chownr@1.0.1 </tspan>
-<tspan x="10" y="1050">      │ └─┬ tar-stream@1.5.2 </tspan>
-<tspan x="10" y="1066">      │   ├─┬ bl@1.2.0 </tspan>
-<tspan x="10" y="1082">      │   │ └─┬ readable-stream@2.2.9 </tspan>
-<tspan x="10" y="1098">      │   │   ├── isarray@1.0.0 </tspan>
-<tspan x="10" y="1114">      │   │   └── string_decoder@1.0.0 </tspan>
-<tspan x="10" y="1130">      │   └─┬ readable-stream@2.2.9 </tspan>
-<tspan x="10" y="1146">      │     ├── buffer-shims@1.0.0 </tspan>
-<tspan x="10" y="1162">      │     ├── isarray@1.0.0 </tspan>
-<tspan x="10" y="1178">      │     ├── process-nextick-args@1.0.7 </tspan>
-<tspan x="10" y="1194">      │     ├── string_decoder@1.0.0 </tspan>
-<tspan x="10" y="1210">      │     └── util-deprecate@1.0.2 </tspan>
-<tspan x="10" y="1226">      └── tunnel-agent@0.4.3</tspan>
+<tspan x="10" y="586">      │ ├─┬ are-we-there-yet@1.1.4 </tspan>
+<tspan x="10" y="602">      │ │ ├── delegates@1.0.0 </tspan>
+<tspan x="10" y="618">      │ │ └─┬ readable-stream@2.2.9 </tspan>
+<tspan x="10" y="634">      │ │   ├── buffer-shims@1.0.0 </tspan>
+<tspan x="10" y="650">      │ │   ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="666">      │ │   ├── process-nextick-args@1.0.7 </tspan>
+<tspan x="10" y="682">      │ │   ├── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="698">      │ │   └── util-deprecate@1.0.2 </tspan>
+<tspan x="10" y="714">      │ ├── console-control-strings@1.1.0 </tspan>
+<tspan x="10" y="730">      │ ├─┬ gauge@2.7.4 </tspan>
+<tspan x="10" y="746">      │ │ ├── aproba@1.1.1 </tspan>
+<tspan x="10" y="762">      │ │ ├── has-unicode@2.0.1 </tspan>
+<tspan x="10" y="778">      │ │ ├── object-assign@4.1.1 </tspan>
+<tspan x="10" y="794">      │ │ ├── signal-exit@3.0.2 </tspan>
+<tspan x="10" y="810">      │ │ ├─┬ string-width@1.0.2 </tspan>
+<tspan x="10" y="826">      │ │ │ ├── code-point-at@1.1.0 </tspan>
+<tspan x="10" y="842">      │ │ │ └─┬ is-fullwidth-code-point@1.0.0 </tspan>
+<tspan x="10" y="858">      │ │ │   └── number-is-nan@1.0.1 </tspan>
+<tspan x="10" y="874">      │ │ ├─┬ strip-ansi@3.0.1 </tspan>
+<tspan x="10" y="890">      │ │ │ └── ansi-regex@2.1.1 </tspan>
+<tspan x="10" y="906">      │ │ └── wide-align@1.1.0 </tspan>
+<tspan x="10" y="922">      │ └── set-blocking@2.0.0 </tspan>
+<tspan x="10" y="938">      ├── os-homedir@1.0.2 </tspan>
+<tspan x="10" y="954">      ├─┬ pump@1.0.2 </tspan>
+<tspan x="10" y="970">      │ ├── end-of-stream@1.4.0 </tspan>
+<tspan x="10" y="986">      │ └─┬ once@1.4.0 </tspan>
+<tspan x="10" y="1002">      │   └── wrappy@1.0.2 </tspan>
+<tspan x="10" y="1018">      ├─┬ rc@1.2.1 </tspan>
+<tspan x="10" y="1034">      │ ├── deep-extend@0.4.1 </tspan>
+<tspan x="10" y="1050">      │ ├── ini@1.3.4 </tspan>
+<tspan x="10" y="1066">      │ └── strip-json-comments@2.0.1 </tspan>
+<tspan x="10" y="1082">      ├─┬ simple-get@1.4.3 </tspan>
+<tspan x="10" y="1098">      │ └── unzip-response@1.0.2 </tspan>
+<tspan x="10" y="1114">      ├─┬ tar-fs@1.15.2 </tspan>
+<tspan x="10" y="1130">      │ ├── chownr@1.0.1 </tspan>
+<tspan x="10" y="1146">      │ └─┬ tar-stream@1.5.2 </tspan>
+<tspan x="10" y="1162">      │   ├─┬ bl@1.2.0 </tspan>
+<tspan x="10" y="1178">      │   │ └─┬ readable-stream@2.2.9 </tspan>
+<tspan x="10" y="1194">      │   │   ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="1210">      │   │   └── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="1226">      │   └─┬ readable-stream@2.2.9 </tspan>
+<tspan x="10" y="1242">      │     ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="1258">      │     └── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="1274">      └── tunnel-agent@0.4.3</tspan>
 </text>
 </svg>
